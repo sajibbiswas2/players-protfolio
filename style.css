@@ -1,0 +1,156 @@
+/*--------
+- fonts -
+--------- */
+
+.container{
+    width: 1100px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    color: #ffff;
+    margin-top: 40px;
+    margin-left: 220px;
+    border-radius: 10px;
+    
+
+}
+.player-profile{
+    width: 400px;
+    padding-left: 40px;
+   
+}
+.players-title{
+  width: 400px;
+  font-size: 1.8rem;
+  margin-top: 90px;
+}
+.players-detels{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.button-1{
+    height: 50px;
+    width: 160px;
+    background-color: red;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    
+}
+.player-img{
+    
+    margin-left: 600px;
+    margin-top: -397px;
+}
+.player{
+    width: 330px;
+    height: 430px;
+}
+.button-type{
+    margin-top: 60px;
+   margin-left: 220px;
+   height: 230px;
+   width: 260px;
+   background-color: black;
+   border-radius: 10px;
+}
+
+.button-folder{
+   
+}
+.button-bar{
+    height: 40px;
+    width: 190px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 1.2rem;
+
+    
+}
+#button-bar{
+   background-color: red; 
+}
+.main{
+   margin-top: -230px;
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 130px;
+   
+ 
+   
+}
+.detels-p{
+    
+   margin-bottom: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+ 
+}
+
+.detels-pleyer{
+    font-size: .7rem;
+}
+.buttons{
+    
+}
+#btn-1{
+    font-size: 1rem;
+    height: 30px;
+    width: 100px;
+   margin-top: 20px;
+   margin-left: 20px;
+  
+   
+}
+#detels{
+    margin-left: 20px; 
+}
+.times{
+    margin-left: 20px;
+    
+}
+.Blog-Image{
+    width: 250px;
+}
+.ftteru{
+    background-color: black;
+    height: 400px;
+}
+.Goal{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: antiquewhite;
+}
+.Goal:hover{ 
+    color: orangered;
+}
+.line{
+    width: 800px;
+    margin-left: 350px;
+}
+.header{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+
+    
+}
+ul li{
+    padding: 0px 20px;
+    font-size: 1rem;
+  je
+    
+}
