@@ -1,7 +1,4 @@
-/*--------
-- fonts -
---------- */
-  body{
+body{
     font-family: 'Poppins', sans-serif;
   }
 .container{
@@ -15,10 +12,11 @@
     border-radius: 10px;
      display: flex;
      
+     
     
 
 }
-.player-profiles{
+.player-profile{
     width: 400px;
     padding-left: 40px;
    
@@ -26,7 +24,7 @@
 .players-title{
   width: 400px;
   font-size: 1.8rem;
-  margin-top: 90px;
+ 
 }
 .players-detels{
     font-size: 1rem;
@@ -43,17 +41,16 @@
     border-radius: 20px;
     
 }
-.player-img img{
-    width: 200px;
-   margin-left:300px;
-    margin-top: 20px;
+#player-img{
+    
+    margin-left: 600px;
+    margin-top: -300px;
 }
- 
-#player{
+
+.players{
     width: 330px;
     height: 430px;
-    
-} 
+}
 .button-type{
     margin-top: 60px;
    margin-left: 220px;
@@ -171,158 +168,159 @@ li a{
     
 } 
 
-   
-/*---------------
-  @media screen --
----------------- */
 
-/* ---------------
-    mobaile device -
-  --------------- */
+
+   /* -------------
+     main section
+   ------------ */
+
+
+     .upcamin-mach {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 860px;
+    margin-left: 500px;
+    margin-top: -230px;
+  
+
+   }
+   .mach{
+    border: 1px solid black;
+    width: 250px;
+    height: 220px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+   }
+.indeaVsbangladesh{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+.Germany-VS-Franch{
+    text-align: center;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+
+    
+}
+li a{
+    padding: 0px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    
+} {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+
+    
+}
+li a{
+    padding: 0px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}    
+
 @media  only  screen and (max-width:688px) {
 
     .container{
-        width: 100%;
-       display: flex none;
+
+     display: flex none;
        display: block;
        width: 290px;
-       margin-left: 120px;  
-       height: 900px;
+       
     }
-    .profile{
-     justify-content: center;
-     text-align: center;
+   .player-profile{
+      justify-content: center;
+     
      width: 100%;
-     display: grid;
-      grid-template-columns: repeat(1,1fr);
+    
     }
-    .players-title{
-        font-size: 1.4rem;
+   .players-title{
+       font-size: 1.2rem;
        justify-content: center;
-       position: relative;
-       margin-left: -5px;
+          
+        margin-left: -65px; 
+    }
+    .players-detels{
+        justify-content: center;
+        margin-left: -70px;
     }
     
-   .button{
-    margin-left: -60px;
+   .button-1{
+    margin-left: 30px; 
    }
-   .player-img{
-   
-   position: absolute;
-  
-   }
-    #player{
-        height: 400px;
-        margin-left: 360px;
-        margin-top: 2px;
-        
-       
+    #player-img{
+       margin-left:-40px; 
+      margin-top: 100px;
+    } 
+    .button-type{
+        margin-left: 240px;
     }
-
-       
-    /*-----------
-     button type -
-    ---------- */
-
-  .button-type{
-     
-       background-color: #ffff;
-      
-
-       }
-       .button-folder{
+    .upcamin-mach{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-       margin-left: -90px;
-       }
-
-
-
-    .main{
         margin-top: 40px;
-        grid-template-columns: repeat(1,1fr);
-        margin-left: 150px;
+        margin-left: 240px;
     }
-   
-    .line{
-        width: 200px;
-       margin-left: 28px;
-}
-.ftteru{
-    width: 260px;
-   margin-left: 140px;
-   display: block;
-}
-
-.nav ul{
- display: flex none;
- display: grid;
- grid-template-columns: repeat(1,1fr);  
-}
-}
-
- /* ---------------
-   Tablat devaice -
- -------------- */
-@media only screen and (min-width:688px) and (max-width:992px){
-   .container{
+    .ftteru{
         width: 100%;
-        margin-left: 20px;
-        
-       
-    } 
-    
-    #player{
-        margin-left: -160px;
+        justify-content: center;
+        margin-left: 220px;
     }
-     .button-type{
-         width: 100%; 
-         background-color: #ffff;
+   .line{
+    width: 70%;
+    margin-left: 40gipx;
+   }
+     .nav ul{
+        display:grid ;
+        grid-template-columns: repeat(1,1fr);
         
+    } 
+} 
+
+/*------------
+tablet device 
+------------- */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+        margin-left:20px;  
+    } 
+    #player-img{
+        margin-left: 380px;
+    }
+    .button-type{
+        background-color: #ffff;
+        margin-left: 10px;
+        display: flex;
+    }
+    .button-folder{
+        display: flex;
+    }
+    
+    .upcamin-mach{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 1px;
+        margin-left: 45px;
+    }
+    .line{
         margin-left: 40px;
-        } 
-        .button-folder{
-            display: flex;
-            
-           }
-           .player-img{
-            
-            margin-left: 150px;
-           }
-
-           .main{
-            width: 80%;
-            margin-top: 40px;
-            grid-template-columns: repeat(2,1fr);
-            margin-left: 150px; 
-            margin-top: -30px;
-             margin-left: 150px;
-            
-        }
-        .last-player{
-            display: none;
-        }
-        .singel-button{
-             display:grid;
-             height: 40px;
-             width: 140px;
-             margin-left: 45%;
-             background-color: red;
-             text-align: center;
-             border-radius: 5px;    
-        }
-      /*-------------
-           futter
-      --------------- */
-     .ftteru{
-        margin-top: 15px;
-            margin-left: 30px;
-        }
-        .line{
-            width: 80%;
-            margin-left: 80px;
-        } 
-        
-
+        width: 700px;
+    }
 }
+
 
