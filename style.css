@@ -1,20 +1,24 @@
 /*--------
 - fonts -
 --------- */
-
+ body{
+    font-family: 'Poppins', sans-serif;
+  }
 .container{
     width: 1100px;
-    height: 500px;
+    
     border: 1px solid black;
     background-color: black;
     color: #ffff;
     margin-top: 40px;
     margin-left: 220px;
     border-radius: 10px;
+     display: flex;
+     
     
 
 }
-.player-profile{
+.player-profiles{
     width: 400px;
     padding-left: 40px;
    
@@ -27,6 +31,7 @@
 .players-detels{
     font-size: 1rem;
     font-style: italic;
+    width: 400px;
 }
 
 
@@ -38,12 +43,13 @@
     border-radius: 20px;
     
 }
-.player-img{
-    
-    margin-left: 600px;
-    margin-top: -397px;
+.player-img img{
+    width: 200px;
+    margin-left:300px;
+    margin-top: 30px;
 }
-.player{
+ 
+.players{
     width: 330px;
     height: 430px;
 }
@@ -55,10 +61,16 @@
    background-color: black;
    border-radius: 10px;
 }
+#Upcoming-link :hover{
+    color: blue;
+    background-color: red;
+}
 
-.button-folder{
+button a{
+    text-decoration: none;
    
 }
+
 .button-bar{
     height: 40px;
     width: 190px;
@@ -120,9 +132,13 @@
 .Blog-Image{
     width: 250px;
 }
+.singel-button{
+   display: none;
+}
 .ftteru{
     background-color: black;
     height: 400px;
+    width: 100%;
 }
 .Goal{
     text-align: center;
@@ -138,8 +154,7 @@
     width: 800px;
     margin-left: 350px;
 }
-.header{
-    color: aliceblue;
+.futter{
     display: flex;
     justify-content: space-around;
 }
@@ -148,9 +163,211 @@ nav ul{
 
     
 }
-ul li{
+li a{
     padding: 0px 20px;
     font-size: 1rem;
-  je
+    text-decoration: none;
     
+} 
+/*--------------
+    upcamin mach 
+   ------------- */
+   .containers{
+    width: 1100px;
+    border: 1px solid black;
+    background-color: black;
+    color: #ffff;
+    margin-top: 40px;
+    margin-left: 220px;
+    border-radius: 10px;
+     display: flex;
+}
+/* .profiles{
+    width: 400px;
+    padding-left: 80px;
+   
+} */
+.players-titles{
+  width: 400px;
+  font-size: 1.8rem;
+  margin-top: 90px;
+}
+.players-detelss{
+    font-size: 1rem;
+    font-style: italic;
+    width: 400px;
+}
+
+
+
+   /* -------------
+     main section
+   ------------ */
+   .upcamin-mach{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 860px;
+    margin-left: 500px;
+    margin-top: -230px;
+  
+
+   }
+   .mach{
+    border: 1px solid black;
+    /* margin-left: 500px; */
+    width: 250px;
+    height: 220px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+   }
+.indeaVsbangladesh{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+.Germany-VS-Franch{
+    text-align: center;
+}
+
+/*---------------
+  @media screen --
+---------------- */
+
+/* ---------------
+    mobaile device -
+  --------------- */
+@media  only  screen and (max-width:688px) {
+
+    .container{
+       display: flex none;
+       display: block;
+       width: 290px;
+       margin-left: 120px;  
+    }
+    .profile{
+     justify-content: center;
+     text-align: center;
+     width: 100%;
+     display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .players-title{
+        font-size: 1.4rem;
+       justify-content: center;
+       position: relative;
+       margin-left: -35px;
+    }
+    
+   .button{
+    margin-left: -60px;
+   }
+    .player-img{
+        margin-left: -210px;
+    }
+       
+    /*-----------
+     button type -
+    ---------- */
+
+  .button-type{
+     
+       background-color: #ffff;
+      
+
+       }
+       .button-folder{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       margin-left: -90px;
+       }
+
+
+
+    .main{
+        margin-top: 40px;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 150px;
+    }
+   
+    .line{
+        width: 200px;
+       margin-left: 28px;
+}
+.ftteru{
+    width: 260px;
+   margin-left: 140px;
+   display: block;
+}
+
+.nav ul{
+ display: flex none;
+ display: grid;
+ grid-template-columns: repeat(1,1fr);  
+}
+}
+
+ /* ---------------
+   Tablat devaice -
+ -------------- */
+@media only screen and (min-width:688px) and (max-width:992px){
+   .container{
+        width: 100%;
+        margin-left: 20px;
+        
+       
+    } 
+    .player-img{
+        margin-left: -200px;
+    }
+     .button-type{
+         width: 100%; 
+        background-color: #ffff;
+        margin-left: 70px;
+        } 
+        .button-folder{
+            display: flex;
+            
+           }
+           .main{
+            
+
+           }
+
+           .main{
+            width: 80%;
+            margin-top: 40px;
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 150px; 
+            margin-top: -30px;
+             margin-left: 150px;
+            
+        }
+        .last-player{
+            display: none;
+        }
+        .singel-button{
+             display:grid;
+             height: 40px;
+             width: 140px;
+             margin-left: 45%;
+             background-color: red;
+             text-align: center;
+             border-radius: 5px;    
+        }
+      /*-------------
+           futter
+      --------------- */
+     .ftteru{
+        margin-top: 15px;
+            margin-left: 30px;
+        }
+        .line{
+            width: 80%;
+            margin-left: 80px;
+        } 
+        
+
 }
